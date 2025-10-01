@@ -9,10 +9,20 @@ public class DatosUsuario {
         
         System.out.print("Introduce tu nombre: ");
         String nombre = sc.nextLine();
-
+          
+      
         System.out.print("Introduce tu edad: ");
         int edad = sc.nextInt();
-        
+
+
+        if (edad<=0){
+    System.out.println("ERROR");
+} else {
+    if (edad>120)
+    System.out.println("ERROR");
+}
+ 
+}
 
 
         System.out.print("Introduce tu correo electrónico: ");
