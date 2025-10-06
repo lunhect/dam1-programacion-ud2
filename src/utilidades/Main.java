@@ -58,9 +58,23 @@ cuenta.getSaldo();
         // para asegurarte de que comprendes la diferencia entre public y private.
 
 
-
-
-
+System.out.println("Saldo después de operaciones: " + cuenta.getSaldo());
 
 }
 }
+
+
+// ================================
+// RESPUESTAS DE REFLEXIÓN
+// ================================
+// Ejercicio 1: ¿por qué no puedo acceder al saldo directamente?
+// Respuesta:  Porque el saldo está marcado como private. Eso significa que solo se puede usar dentro de la clase. Así se protege para que nadie lo cambie sin control.
+
+// Ejercicio 2: ¿por qué sí puedo usar los métodos depositar(), retirar() y getSaldo()?
+// Respuesta:  Porque esos métodos son public, o sea, están abiertos para que los puedas usar desde fuera de la clase. Son como puertas seguras para trabajar con el saldo.
+
+// Ejercicio 3: ¿qué significa el error al intentar llamar a registrarOperacion()?
+// Respuesta:  El error aparece porque ese método es private. Solo se puede usar dentro de la clase, no desde fuera. Es como una herramienta interna que no se presta.
+// - ¿Qué pasaría si saldo fuera public?
+// - ¿Por qué registrarOperacion es private en lugar de public?
+// Respuesta:  
