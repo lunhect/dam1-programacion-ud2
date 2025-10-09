@@ -20,15 +20,15 @@ method.saludar();
         // EJERCICIO 2: Métodos con retorno
         // ================================
         // 1. Llama al método sumar(5, 3).
-        // 2. Guarda el resultado en una variable e imprímelo.
+        
         // 3. Llama al método presentar("Lucía") e imprime el resultado.
         // Tu código aquí ↓
 
         
         int n = method.sumar(5, 3);
 
-        method.presentar("Lucia");
-
+        String mensaje = method.presentar("Lucia");
+       System.out.println(mensaje);
 
       // ================================
         // EJERCICIO 3: Paso por valor (primitivos)
